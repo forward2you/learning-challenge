@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-09-15",
+  "sources": [
+    {
+      "file": "/Users/wei.feng/Documents/学校/三上/课本/26秋三年级上册北师大数学课本.pdf",
+      "sha256": "a4905103c72e8505db08ee0016fcd2b4782960efc91fa54729991907e5856851",
+      "pdf_pages": 121,
+      "pages_with_under_20_extracted_characters": 120,
+      "review_status": "structure_and_selected_pages_only",
+      "edition_status": "publisher identified; formal edition/printing not verified"
+    },
+    {
+      "file": "/Users/wei.feng/Documents/学校/三上/课本/26秋·语文三年级上册电子课本(1).pdf",
+      "sha256": "35dd90dd1268434c31ab311c763729d92943a1df3ab1b8e15709a50c95624b75",
+      "pdf_pages": 123,
+      "pages_with_under_20_extracted_characters": 0,
+      "review_status": "structure_and_selected_pages_only",
+      "edition_status": "publisher identified; formal edition/printing not verified"
+    },
+    {
+      "file": "/Users/wei.feng/Documents/学校/三上/课本/人教PEP版·英语三年级上册.pdf",
+      "sha256": "fe5bd43196c9337f696f91b7083350e37025e291a41d81486ee26f6ce0953770",
+      "pdf_pages": 98,
+      "pages_with_under_20_extracted_characters": 0,
+      "review_status": "structure_and_selected_pages_only",
+      "edition_status": "publisher identified; formal edition/printing not verified"
+    }
+  ]
+}

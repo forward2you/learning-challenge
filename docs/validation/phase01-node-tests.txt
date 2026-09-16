@@ -1,0 +1,30 @@
+✔ application: empty input, max digits, delete, clear, zero and unsupported keys (1.391833ms)
+✔ application: wrong answer, duplicate submits and held Enter do not skip feedback (0.850208ms)
+✔ application: timer counts question time only and new round resets it (2.13875ms)
+✔ application: completed round saves once, shows correct score and survives reload (0.911958ms)
+✔ application: denied storage cannot block completion or claim permanent saving (0.827ms)
+✔ application: read allowed but writes denied produces accurate result and home notice (0.339209ms)
+✔ application: malformed JSON and invalid structured histories recover with a notice (0.8545ms)
+✔ application: latest twenty completed rounds retained in chronological order (0.3245ms)
+✔ application: leaving an unfinished round does not save partial scores (0.270166ms)
+✔ application: practice mode never displays elapsed challenge time (0.334875ms)
+✔ addition/easy: entire bank obeys arithmetic and ranges; rounds unique (4.241292ms)
+✔ addition/medium: entire bank obeys arithmetic and ranges; rounds unique (3.415625ms)
+✔ addition/hard: entire bank obeys arithmetic and ranges; rounds unique (39.443167ms)
+✔ small/easy: entire bank obeys arithmetic and ranges; rounds unique (0.194375ms)
+✔ small/medium: entire bank obeys arithmetic and ranges; rounds unique (0.155792ms)
+✔ small/hard: entire bank obeys arithmetic and ranges; rounds unique (0.088916ms)
+✔ large/easy: entire bank obeys arithmetic and ranges; rounds unique (0.662125ms)
+✔ large/medium: entire bank obeys arithmetic and ranges; rounds unique (0.465334ms)
+✔ large/hard: entire bank obeys arithmetic and ranges; rounds unique (0.423292ms)
+✔ grading rejects blank, negative, decimal, overlong and nonnumeric answers (0.215459ms)
+✔ history ignores invalid entries and retains latest 20 (0.414375ms)
+✔ invalid configuration rejected (0.100375ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 600.951375
