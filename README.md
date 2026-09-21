@@ -8,9 +8,15 @@
 
 开发预览：在本目录运行 `python3 -m http.server 8000`，访问 http://localhost:8000。测试：`node --test tests/*.test.cjs`。
 
+## GitHub Pages
+
+工作流 [`.github/workflows/pages.yml`](.github/workflows/pages.yml) 会在拉取请求和 `main` 推送时运行全部测试。测试通过后，`main` 推送会把 `index.html`、`src/`、`styles/` 和 `data/` 组成最小静态包并部署到 GitHub Pages；也可在 Actions 页面从 `main` 手动触发。
+
+首次使用需在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。公网页面是可选试玩入口，不替代离线安装包；工作流成功后可在部署摘要中的 `github-pages` 环境打开实际 URL。
+
 ## 当前版本
 
-模块化和年级/学期/单元选择已完成。语文8单元115题、数学8单元加实践与复习175题、英语6单元加Revision100题，共390题、27个学习范围。第一单元各10题，其余范围各15题，每轮随机抽10题并打乱选项。84项程序测试及Chrome280题回归通过。详见[最新验收报告](docs/validation/full-semester-report.md)与[教材覆盖清单](docs/content/full-semester-coverage.md)。
+模块化和年级/学期/单元选择已完成。语文8单元115题、数学8单元加实践与复习175题、英语6单元加Revision100题，共390题、27个学习范围。第一单元各10题，其余范围各15题，每轮随机抽10题并打乱选项。当前86项程序测试及Chrome280题回归通过。详见[最新验收报告](docs/validation/full-semester-report.md)与[教材覆盖清单](docs/content/full-semester-coverage.md)。
 
 结构：`src/content/`管理内容注册，`src/core/`管理选择题会话，`src/platform/`处理存储，`src/features/`提供视图，`styles/`分层管理样式；`src/app.js`协调交互，`src/engine.js`保留口算生成。
 
@@ -29,6 +35,7 @@
 - [V1 Alpha验证报告](docs/validation/v1-alpha-report.md)
 - [技术方案](specs/001-arithmetic/plan.md)
 - [任务与验证记录](specs/001-arithmetic/tasks.md)
+- [GitHub Pages部署规格](specs/006-github-pages/spec.md)
 
 ## 开发流程
 

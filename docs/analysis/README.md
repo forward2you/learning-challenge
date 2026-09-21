@@ -20,3 +20,4 @@
 | [014](014-v1.1-refactor-start.md) | 2026-09-16 | 启动V1.1模块化与逐步自动验证 |
 | [015](015-unit-two-expansion.md) | 2026-09-17 | 三科第二单元45题与选项随机化 |
 | [016](016-full-semester.md) | 2026-09-20 | 补齐三上剩余单元、综合实践与复习练习 |
+| [017](017-github-pages-deployment.md) | 2026-09-21 | GitHub Actions 校验与 GitHub Pages 可选试玩部署 |
