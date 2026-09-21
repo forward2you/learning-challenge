@@ -1,0 +1,252 @@
+{
+  "date": "2026-09-21T01:20:43.154Z",
+  "browser": "153.0.8010.50",
+  "reports": [
+    {
+      "subject": "chinese",
+      "unitId": "unit-1",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 10,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-2",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-3",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-4",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-5",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-6",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-7",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "chinese",
+      "unitId": "unit-8",
+      "width": 1280,
+      "height": 900,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-1",
+      "width": 390,
+      "height": 844,
+      "poolSize": 10,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-2",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "practice-campus",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-3",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-4",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-5",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "practice-pairing",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-6",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-7",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "unit-8",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "practice-calendar",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "unitId": "review",
+      "width": 390,
+      "height": 844,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "unit-1",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 10,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "unit-2",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "unit-3",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "unit-4",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "unit-5",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "unit-6",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "unitId": "revision",
+      "width": 768,
+      "height": 1024,
+      "poolSize": 15,
+      "score": 9,
+      "questions": 10
+    }
+  ],
+  "arithmeticScore": 10,
+  "pageErrors": [],
+  "externalRequests": []
+}

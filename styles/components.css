@@ -1,0 +1,47 @@
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 26px; box-shadow: 0 5px 0 #e6e6db50; }
+.primary { background: var(--green); color: white; padding: 15px 25px; border-radius: 13px; font-weight: 700; box-shadow: 0 4px 0 var(--green-dark); }
+.primary:hover { background: #174d3a; }
+.secondary { background: #eaf0e2; padding: 15px 24px; border-radius: 13px; }
+.wide { width: 100%; margin-top: 16px; }
+.text-button { background: transparent; padding: 10px 0; }
+.note { font-size: 12px; color: #667264; margin: 18px 0 0; }
+.muted { color: #72806d; font-size: 13px; }
+.history { text-align: center; font-size: 13px; color: #617260; padding: 25px 0 0; }
+
+select { width: 100%; border: 1px solid #d6ddcf; border-radius: 11px; background: var(--card); padding: 13px; color: #294b38; font-size: 14px; }
+.section-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.section-heading > span { color: #727d70; font-size: 12px; }
+.game-head { display: flex; justify-content: space-between; align-items: center; font-size: 14px; gap: 10px; }
+.progress { display: flex; gap: 9px; margin: 27px 0; }
+.progress span { flex: 1; text-align: center; padding: 9px 0; background: #e9eade; border-radius: 10px; font-size: 13px; }
+.progress .current { background: #eac776; color: #433719; }
+.progress .done { background: #286447; color: white; }
+.progress .review { background: #edd0b0; color: #563c1f; }
+.feedback { margin-top: 18px; border-radius: 12px; padding: 12px 16px; }
+.feedback p { margin: 6px 0 0; font-size: 14px; }
+.success { background: #eaf4df; }
+.try { background: #fff0d9; }
+.system-notice, .quiz-warning { background: #fff0d9; border-radius: 12px; padding: 12px 16px; font-size: 13px; }
+
+.result { text-align: center; max-width: 760px; margin: auto; }
+.badge { font-size: 50px; background: #f4e5aa; border-radius: 50%; width: 90px; height: 90px; display: grid; place-items: center; margin: 25px auto; color: #9f7122; }
+.result h1 { font-size: 30px; }
+.score { font-size: 70px; font-weight: 800; color: #276244; }
+.score span { font-size: 17px; font-weight: 400; color: #63715e; }
+.result-actions { display: flex; justify-content: center; gap: 18px; margin: 28px 0 12px; }
+.review-list { max-width: 760px; margin: 30px auto; }
+.review-list article { margin-top: 14px; }
+.review-list span { float: right; font-size: 13px; color: #6b7568; }
+.review-list p { margin-bottom: 0; font-size: 14px; }
+.error-state { max-width: 600px; margin: 60px auto; text-align: center; }
+
+@media (max-width: 650px) {
+  .card { padding: 19px; }
+  .section-heading { align-items: start; gap: 10px; }
+  .section-heading > span { max-width: 100px; }
+  .game-head { font-size: 11px; }
+  .progress { gap: 4px; margin: 18px 0; }
+  .progress span { font-size: 11px; }
+  .result-actions { flex-direction: column; }
+  .review-list span { float: none; display: block; margin-top: 8px; }
+}

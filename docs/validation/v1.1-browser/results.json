@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-17T09:23:41.035Z",
+  "browser": "152.0.7977.83",
+  "reports": [
+    {
+      "subject": "chinese",
+      "width": 1280,
+      "height": 900,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "math",
+      "width": 390,
+      "height": 844,
+      "score": 9,
+      "questions": 10
+    },
+    {
+      "subject": "english",
+      "width": 768,
+      "height": 1024,
+      "score": 9,
+      "questions": 10
+    }
+  ],
+  "arithmeticScore": 10,
+  "pageErrors": [],
+  "externalRequests": []
+}
