@@ -1,0 +1,46 @@
+{
+  "name": "pdfjs-dist",
+  "version": "5.6.205",
+  "sourceHashes": {
+    "legacy/build/pdf.min.mjs": "0d29c4871eff0b72f3896825f2673ddf7dfbccf815a7095a5d14f5aa68fab0e5",
+    "legacy/build/pdf.worker.min.mjs": "7fc442c268d107d656755252cf38c422a88e825b7f0caaac6a5f58364dff4179"
+  },
+  "changes": "Classic-script wrapper, final export removed, import.meta.url captured from currentScript. CMaps and standard fonts base64 bundled.",
+  "files": [
+    {
+      "file": "LICENSE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "binary-data.js",
+      "bytes": 2591229,
+      "sha256": "6200c9bf9f45e7dcdefe5bf55a5b64ee506358bee65f7b30d3e993f5535efba9"
+    },
+    {
+      "file": "cmaps-LICENSE",
+      "bytes": 2080,
+      "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+    },
+    {
+      "file": "pdf.js",
+      "bytes": 490862,
+      "sha256": "5364b46e6c0229c72b321587c15f39ed66c757d4ed7e1f5500c2226a3e0be29c"
+    },
+    {
+      "file": "pdf.worker.js",
+      "bytes": 1298322,
+      "sha256": "0080ae7506be1fabddfcf8ced5fe4847b1b7be508a59040b33c87681bd3aafd8"
+    },
+    {
+      "file": "standard_fonts-LICENSE_FOXIT",
+      "bytes": 1553,
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    {
+      "file": "standard_fonts-LICENSE_LIBERATION",
+      "bytes": 4414,
+      "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
+    }
+  ]
+}

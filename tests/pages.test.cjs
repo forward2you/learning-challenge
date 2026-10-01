@@ -18,6 +18,7 @@ test('GitHub Pages: entry resources are relative, local and present', () => {
   assert.ok(references.length > 0);
 
   for (const reference of references) {
+    if (reference.startsWith("#")) continue;
     assert.doesNotMatch(reference, /^(?:https?:)?\/\//, `${reference} must not require the network`);
     assert.ok(!reference.startsWith('/'), `${reference} must work below the repository subpath`);
     const localPath = path.resolve(root, reference.split(/[?#]/, 1)[0]);

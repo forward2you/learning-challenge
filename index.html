@@ -17,15 +17,81 @@
   <script defer src="data/english-rest.js"></script>
   <script defer src="data/catalog.js"></script>
   <script defer src="src/content/registry.js"></script>
+  <script defer src="src/content/workshop.js"></script>
   <script defer src="src/content.js"></script>
   <script defer src="src/core/quiz-session.js"></script>
   <script defer src="src/platform/storage.js"></script>
   <script defer src="src/features/views.js"></script>
   <script defer src="src/app.js"></script>
+  <script defer src="src/features/content-manager.js"></script>
+  <script defer src="src/content/knowledge.js"></script>
+  <script defer src="src/platform/pdf-reader.js"></script>
+  <script defer src="src/features/pdf-knowledge.js"></script>
+  <link rel="stylesheet" href="styles/workshop.css">
 </head>
 <body>
   <header><a href="index.html" aria-label="知识小冒险首页"><span class="logo">✦</span> 知识小冒险</a><span class="offline">● V1 三上学习营地</span></header>
   <main id="app"></main>
-  <footer>每天一小步，发现自己的大进步。</footer>
+<main id="content-manager" hidden>
+<a href="index.html">← 返回学习营地</a>
+
+<h1>内容管理</h1><p>从本地导入题库，核对教材并逐题审核，再加入孩子的练习。文件不会上传。</p>
+<p>可打开PDF教材，整理知识资料；也可导入JSON题库。知识资料需另外编成题目，不会自动加入孩子的练习。</p>
+<section class="card" id="pdf-workspace">
+<h2>教材资料 · 看原页，做校对</h2>
+<p>文字会从PDF的文字层提取。图片页需要手工录入，拼音和版面可能提取不准，请对照原页。</p>
+<label>打开教材PDF（最多100 MiB）<input id="pdf-file" type="file" accept=".pdf,application/pdf"></label>
+<p id="pdf-status" role="status" aria-live="polite">PDF只在当前页面读取，不会上传或保存整本文件。</p>
+<form id="pdf-navigation" hidden><label>PDF文件页码<input id="pdf-number" type="number" min="1" step="1" required></label><button id="pdf-prev" type="button">上一页</button><button type="submit" id="pdf-go">查看此页</button><button id="pdf-next" type="button">下一页</button></form>
+<div id="pdf-image" aria-label="教材原页"></div>
+<p id="knowledge-notice" role="status" aria-live="polite"></p>
+<form id="knowledge-form" hidden>
+<h3>知识条目</h3><p id="knowledge-source"></p>
+<div class="knowledge-meta">
+<label>学科<select id="knowledge-subject"><option value="chinese">语文</option><option value="math">数学</option><option value="english">英语</option></select></label>
+<label>年级<select id="knowledge-grade"><option value="1">1年级</option><option value="2">2年级</option><option value="3" selected>3年级</option><option value="4">4年级</option><option value="5">5年级</option><option value="6">6年级</option></select></label>
+<label>学期<select id="knowledge-semester"><option value="1">上学期</option><option value="2">下学期</option></select></label>
+</div>
+<label>教材名称<input id="knowledge-book" required maxlength="200"></label>
+<label>教材版本说明<input id="knowledge-edition" required maxlength="200" placeholder="按教材版权页填写；未核对时写“版本待核对”"></label>
+<label>单元<input id="knowledge-unit" required maxlength="200" placeholder="例如：第一单元"></label>
+<label>教材印刷页码<input id="knowledge-printed" required inputmode="numeric" pattern="[0-9]+" placeholder="请查看原页页脚，不能直接照抄PDF页数"></label>
+<label>条目标题<input id="knowledge-title" required maxlength="200" placeholder="例如：第一单元词语表"></label>
+<label>原始提取文字（留作比对）<textarea id="knowledge-raw" readonly></textarea></label>
+<label>校对后的知识文字<textarea id="knowledge-text" required maxlength="30000" placeholder="可只保留本条知识需要的内容，图片页可在这里手工录入"></textarea></label>
+<div class="workshop-actions"><button type="submit">保存为待审核资料</button><button type="button" id="knowledge-approve">已对照原页，审核并保存</button></div>
+<p>编辑会转回待审核。资料只在保存成功后保留；一次最多500条、总计2 MiB。</p>
+</form>
+<h3>已整理的知识资料</h3><label>恢复知识备份<input type="file" id="knowledge-import" accept=".json,application/json"></label><button type="button" id="knowledge-export">导出知识资料备份</button>
+<ul id="knowledge-list"></ul>
+</section>
+<section class="card"><h2>1. 选择题库内容</h2>
+<p>首次使用：<a href="data/content-template.json" download="content-template.json">下载10题示例</a>，再从下面导入。可以直接修改题干、选项和解析。</p>
+<label>导入题库（最多2 MiB）<input id="import-file" type="file" accept=".json,application/json"></label>
+<label>参考现有格式<select id="builtin-pack"></select></label><button id="export-builtin">导出内置包作参考</button>
+<p>导入文件会重新进入待审核状态。导出草稿可以备份修改内容，但不会保留审核授权。</p>
+</section>
+<p id="notice" role="status" aria-live="polite"></p>
+<section class="card" id="editor" hidden><h2>2. 编辑与审核</h2>
+<label>包ID<input id="pack-id" readonly></label><label>内容版本<input id="pack-version" maxlength="80"></label>
+<label>选择题目<select id="question-list"></select></label>
+<p id="source-book"></p>
+<form id="question-form">
+<label>题干<textarea id="prompt" required></textarea></label>
+<div id="options"></div>
+<label>正确答案<select id="answer-index"><option value="0">选项1</option><option value="1">选项2</option><option value="2">选项3</option><option value="3">选项4</option></select></label>
+<label>解析<textarea id="explanation" required></textarea></label>
+<label>学习要求<input id="learning-goal" required></label>
+<label>教材页码<input id="source-page" required></label><label>PDF页码<input id="pdf-page" type="number" min="1" step="1" required></label>
+<div class="workshop-actions"><button type="submit">保存修改（转为待审核）</button><button type="button" id="approve">已核对原教材，审核此题</button></div>
+</form>
+<p id="review-progress"></p>
+<div class="workshop-actions"><button id="export-draft">导出当前内容备份</button><button id="activate" class="primary">全部审核后加入练习</button></div>
+</section>
+<section class="card"><h2>已保存的本地题库</h2><p>新版本启用后保留旧版本档案。返回首页后重新加载题库。内置题库始终保留。</p><ul id="installed"></ul></section>
+<p>保存仅属于当前浏览器和访问地址。换浏览器或设备前请导出备份；本地文件直开的保存能力仍取决于浏览器，请保留导出备份。</p>
+
+</main>
+  <footer>每天一小步，发现自己的大进步。 <a href="#content-manager">家长 · 内容管理</a></footer>
 </body>
 </html>

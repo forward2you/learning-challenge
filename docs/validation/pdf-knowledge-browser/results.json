@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-30T14:04:30.867Z",
+  "browser": "154.0.8037.58",
+  "reports": [
+    {
+      "subject": "chinese",
+      "pdfPage": 119,
+      "rawCharacters": 498,
+      "rawSample": "词   语   表 \n1   山坡   学校   飘扬   课文   声音   招引   热闹 \n古老   粗壮   枝干   洁白 \n2   轰响   阵雨   湿润   风笛   狂欢   觉得   功课 \n放学   老师   急急忙忙 \n5   秋风   放晴   明朗   地面   亮晶晶 ",
+      "loadMs": 293,
+      "pageMs": 183
+    },
+    {
+      "subject": "english",
+      "pdfPage": 88,
+      "rawCharacters": 1616,
+      "rawSample": "Words in each unit \n单   元   词   汇   表 \n注：加 * 的词为《义务教育英语课程标准（2022年版）》中的二级词；\n黑体词要求理解、运用，白体词仅要求在语境中理解。 \nUnit 1 \n*name   /neɪm/   名字   p.   4 \n*nice   /na",
+      "loadMs": 106,
+      "pageMs": 178
+    },
+    {
+      "subject": "math",
+      "pdfPage": 6,
+      "rawCharacters": 0,
+      "rawSample": "",
+      "loadMs": 532,
+      "pageMs": 227
+    },
+    {
+      "subject": "math",
+      "pdfPage": 17,
+      "rawCharacters": 0,
+      "rawSample": "",
+      "loadMs": 532,
+      "pageMs": 377
+    },
+    {
+      "subject": "math",
+      "pdfPage": 45,
+      "rawCharacters": 0,
+      "rawSample": "",
+      "loadMs": 532,
+      "pageMs": 235
+    },
+    {
+      "subject": "math",
+      "pdfPage": 54,
+      "rawCharacters": 0,
+      "rawSample": "",
+      "loadMs": 532,
+      "pageMs": 231
+    },
+    {
+      "subject": "math",
+      "pdfPage": 79,
+      "rawCharacters": 0,
+      "rawSample": "",
+      "loadMs": 532,
+      "pageMs": 221
+    }
+  ],
+  "heapBytes": 140118485,
+  "flowChecks": [
+    "edit revokes approval",
+    "source hash matches real PDF",
+    "wrong page cannot approve",
+    "storage denied",
+    "JSON export",
+    "damaged PDF",
+    "damaged JSON preserves records",
+    "reload",
+    "import resets review",
+    "390px layout"
+  ],
+  "pageErrors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "kind": "learning-knowledge",
+  "items": [
+    {
+      "id": "ba372587-ad4d-46ba-bc6e-2ba20bba8286",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "26秋·语文三年级上册电子课本(1)",
+      "edition": "测试资料；版本待核对",
+      "unit": "第一单元附表",
+      "title": "验收样本 chinese-119",
+      "text": "山坡 学校 飘扬",
+      "rawText": "词   语   表 \n1   山坡   学校   飘扬   课文   声音   招引   热闹 \n古老   粗壮   枝干   洁白 \n2   轰响   阵雨   湿润   风笛   狂欢   觉得   功课 \n放学   老师   急急忙忙 \n5   秋风   放晴   明朗   地面   亮晶晶   落叶   图案 \n闪闪发光   尽头   排列   规则   凌乱   歌唱   迟到 \n6   秋天   清凉   炎热   枫树   邮票   凉爽   果树 \n菊花   仙子   频频   气味   香甜   松果   丰收 \n8   门板   准备   旁边   暴风雨   安心   低头   吃力 \n再见   母鸡   注意   屋子   漂亮   意思   因此 \n语文园地   恒心   神圣   萌发   妥当   车轴   阁楼 \n培植   厘米 \n11   声明   神仙   普通   让步   条件   指甲   得到 \n衣服   所以   要是   同学   可怜   最好   科学 \n12   旅行   要好   答应   做梦   来得及   救命 \n114",
+      "source": {
+        "fileName": "26秋·语文三年级上册电子课本(1).pdf",
+        "sha256": "35dd90dd1268434c31ab311c763729d92943a1df3ab1b8e15709a50c95624b75",
+        "totalPages": 123,
+        "pdfPage": 119,
+        "printedPage": "114"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:27.975Z"
+    },
+    {
+      "id": "84437e9b-6709-402b-a2cf-02fa2a342e0b",
+      "subject": "english",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "人教PEP版·英语三年级上册",
+      "edition": "测试资料；版本待核对",
+      "unit": "第一单元附表",
+      "title": "验收样本 english-88",
+      "text": "name 名字；nice 令人愉快的、友好的。",
+      "rawText": "Words in each unit \n单   元   词   汇   表 \n注：加 * 的词为《义务教育英语课程标准（2022年版）》中的二级词；\n黑体词要求理解、运用，白体词仅要求在语境中理解。 \nUnit 1 \n*name   /neɪm/   名字   p.   4 \n*nice   /naɪs/   令人愉快的；友好的   p.   4 \n* ear   /ɪə(r)/   耳朵   p.   5 \n* hand   /hænd/   手   p.   5 \n* eye   /aɪ/   眼睛   p.   5 \n* mouth   /maʊθ/   嘴   p.   5 \n* arm   /ɑːm/   胳膊   p.   5 \n*can   /kən, kæn/   可以   p.   7 \n* share   /ʃeə(r)/   分享   p.   7 \n* smile   /smaɪl/   微笑；笑   p.   8 \n* listen   /ˈlɪsn/   听；倾听   p.   8 \n* help   /help/   帮助   p.   8 \n*say   /seɪ/   说；讲   p.   9 \n*friend   /frend/   朋友   p.   9 \n*good   /ɡʊd/   好的   p.   9 \nUnit 2 \n* mum   /mʌm/   （口语）妈妈   p.   16 \n* dad   /dæd/   （ 口语）爸爸；爹爹   p.   16 \n* grandma   /ˈɡrænmɑː/   奶奶； \n* 姥姥   p.   16 \n* grandpa   /ˈɡrænpɑː/   爷爷； \n* 姥爷   p.   16 \n* grandfather   /ˈɡrænfɑːðə(r)/ \n（外）祖父；爷爷；姥爷；外公   p.   17 \n* grandmother   /ˈɡrænmʌðə(r)/ \n（外）祖母；奶奶；姥姥；外婆   p.   17 \n* mother   /ˈmʌðə(r)/   母亲；妈妈   p.   17 \n* father   /ˈfɑːðə(r)/   父亲；爸爸   p.   17 \n* me   /miː/   我   p.   17 \n* sister   /ˈsɪstə(r)/   姐；妹   p.   17 \n*family   /ˈfæməli/   家；家庭   p.   17 \n*have   /hæv/   有   p.   19 \n*big   /bɪɡ/   大的   p.   19 \n* cousin   /ˈkʌzn/   堂（表）兄弟； \n* 堂（表）姐妹   p.   19 \n* brother   /ˈbrʌðə(r)/   哥；弟   p.   19 \n* baby   /ˈbeɪbi/   婴儿   p.   20 \n* uncle   /ˈʌŋkl/   伯父；叔父； \n* 舅父；姑父；姨父   p.   20 \n* aunt   /ɑːnt/   伯母；婶母； \n* 舅母；姑母；姨母   p.   20 \n*small   /smɔːl/   小的   p.   21 \nUnit 3 \n*like   /laɪk/   喜欢   p.   28 \n* dog   /dɒɡ/   狗   p.   28 \n*pet   /pet/   宠物   p.   28 \n* cat   /kæt/   猫   p.   28 \n* fish   /fɪʃ/   鱼；鱼肉   p.   29 \n* bird   /bɜːd/   鸟   p.   29 \n* rabbit   /ˈræbɪt/   兔   p.   29 \nAppendix 3 \n83",
+      "source": {
+        "fileName": "人教PEP版·英语三年级上册.pdf",
+        "sha256": "fe5bd43196c9337f696f91b7083350e37025e291a41d81486ee26f6ce0953770",
+        "totalPages": 98,
+        "pdfPage": 88,
+        "printedPage": "83"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:28.324Z"
+    },
+    {
+      "id": "9da64977-3245-4c7a-a375-5a0575556fb7",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "26秋三年级上册北师大数学课本",
+      "edition": "测试资料；版本待核对",
+      "unit": "样本页面",
+      "title": "验收样本 math-6",
+      "text": "买1个6元的蛋糕和4个3元的面包：6＋3×4＝18（元）。",
+      "rawText": "",
+      "source": {
+        "fileName": "26秋三年级上册北师大数学课本.pdf",
+        "sha256": "a4905103c72e8505db08ee0016fcd2b4782960efc91fa54729991907e5856851",
+        "totalPages": 121,
+        "pdfPage": 6,
+        "printedPage": "2"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:29.159Z"
+    },
+    {
+      "id": "267ef96e-46f9-45de-9ba1-3a4391723419",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "26秋三年级上册北师大数学课本",
+      "edition": "测试资料；版本待核对",
+      "unit": "样本页面",
+      "title": "验收样本 math-17",
+      "text": "1分米＝10厘米；1厘米＝10毫米。",
+      "rawText": "",
+      "source": {
+        "fileName": "26秋三年级上册北师大数学课本.pdf",
+        "sha256": "a4905103c72e8505db08ee0016fcd2b4782960efc91fa54729991907e5856851",
+        "totalPages": 121,
+        "pdfPage": 17,
+        "printedPage": "13"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:29.609Z"
+    },
+    {
+      "id": "1f6cf270-263f-4bff-810e-c36a1d0dd56a",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "26秋三年级上册北师大数学课本",
+      "edition": "测试资料；版本待核对",
+      "unit": "样本页面",
+      "title": "验收样本 math-45",
+      "text": "从不同位置观察同一物体，看到的样子可能不同。",
+      "rawText": "",
+      "source": {
+        "fileName": "26秋三年级上册北师大数学课本.pdf",
+        "sha256": "a4905103c72e8505db08ee0016fcd2b4782960efc91fa54729991907e5856851",
+        "totalPages": 121,
+        "pdfPage": 45,
+        "printedPage": "41"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:29.909Z"
+    },
+    {
+      "id": "b1b29a9d-4298-409e-bb52-9e269fb4fba6",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "26秋三年级上册北师大数学课本",
+      "edition": "测试资料；版本待核对",
+      "unit": "样本页面",
+      "title": "验收样本 math-54",
+      "text": "角有一个顶点和两条边。",
+      "rawText": "",
+      "source": {
+        "fileName": "26秋三年级上册北师大数学课本.pdf",
+        "sha256": "a4905103c72e8505db08ee0016fcd2b4782960efc91fa54729991907e5856851",
+        "totalPages": 121,
+        "pdfPage": 54,
+        "printedPage": "50"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:30.208Z"
+    },
+    {
+      "id": "f4adfbd3-e78d-4db0-b2f9-b59764d3fce7",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "bookTitle": "26秋三年级上册北师大数学课本",
+      "edition": "测试资料；版本待核对",
+      "unit": "样本页面",
+      "title": "验收样本 math-79",
+      "text": "3.15元是3元1角5分。",
+      "rawText": "",
+      "source": {
+        "fileName": "26秋三年级上册北师大数学课本.pdf",
+        "sha256": "a4905103c72e8505db08ee0016fcd2b4782960efc91fa54729991907e5856851",
+        "totalPages": 121,
+        "pdfPage": 79,
+        "printedPage": "75"
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-09-30T14:04:30.492Z"
+    }
+  ]
+}

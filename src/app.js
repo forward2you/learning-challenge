@@ -3,7 +3,9 @@ const app = document.getElementById('app');
 const engine = window.MathGame;
 const content = window.ContentEngine;
 const contentPack = window.ContentCatalog || window.V1ContentPack;
-const registry = content.createRegistry(contentPack.packs || [contentPack]);
+const builtinPacks = contentPack.packs || [contentPack];
+const localContent = window.ContentWorkshop ? window.ContentWorkshop.load(() => localStorage, builtinPacks) : {packs:[], notice:""};
+const registry = content.createRegistry([...builtinPacks, ...localContent.packs]);
 const quizEngine = window.QuizSessionEngine;
 const storage = window.StorageAdapter.create(() => localStorage);
 const views = window.AppViews;
@@ -47,7 +49,7 @@ function home() {
   state = 'home';
   const recent = history.at(-1);
   const recentQuiz = quizHistory.at(-1);
-  const notices = [historyNotice, quizNotice, packValidation.valid ? '' : `内容包暂不可用：${packValidation.errors[0]}`].filter(Boolean);
+  const notices = [historyNotice, quizNotice, localContent.notice, packValidation.valid ? '' : `内容包暂不可用：${packValidation.errors[0]}`].filter(Boolean);
   app.innerHTML = views.home({pack:contentPack,packValid:packValidation.valid,subjectNames,subjectIcons,recentQuiz,recentArithmetic:recent,arithmeticNames:names,notices});
   focusTitle();
 }

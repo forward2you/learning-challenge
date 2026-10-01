@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-30T13:46:47.814Z",
+  "browser": "154.0.8037.58",
+  "checks": [
+    "import",
+    "review reset",
+    "bad file preserves draft",
+    "390px layout",
+    "JSON export",
+    "quota failure",
+    "activation",
+    "reload",
+    "10 questions with keyboard and automatic next",
+    "wrong answer review",
+    "version archive",
+    "history keeps version",
+    "corrupt storage fallback",
+    "restore with damaged archive backup"
+  ],
+  "pageErrors": [],
+  "externalRequests": []
+}

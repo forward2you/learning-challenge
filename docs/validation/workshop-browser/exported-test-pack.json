@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "packId": "local-chinese-review",
+  "contentVersion": "1",
+  "title": "我的语文复习",
+  "books": [
+    {
+      "id": "cn-g3s1-pep-2026",
+      "subject": "chinese",
+      "title": "语文 三年级上册",
+      "publisher": "人民教育出版社",
+      "sourceFile": "26秋·语文三年级上册电子课本(1).pdf"
+    }
+  ],
+  "units": [
+    {
+      "id": "local-review",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "label": "自选复习",
+      "title": "第二单元复习",
+      "order": 200
+    }
+  ],
+  "questions": [
+    {
+      "id": "local-chinese-review-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《望洞庭》的作者是谁？ ",
+      "options": [
+        "刘禹锡",
+        "杜牧",
+        "袁枚",
+        "叶绍翁"
+      ],
+      "answerIndex": 0,
+      "explanation": "《望洞庭》是唐代诗人刘禹锡的作品。",
+      "learningGoal": "识记古诗作者",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "14",
+        "pdfPage": 19,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《望洞庭》中，“青螺”用来比喻什么？",
+      "options": [
+        "洞庭湖中的君山",
+        "水中游动的鱼",
+        "岸边的一棵树",
+        "空中的一朵云"
+      ],
+      "answerIndex": 0,
+      "explanation": "结合课文注释，“青螺”比喻洞庭湖中的君山。",
+      "learningGoal": "结合注释理解比喻",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "14",
+        "pdfPage": 19,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《望洞庭》写到的“秋月”，提示诗中是什么季节？",
+      "options": [
+        "秋季",
+        "春季",
+        "夏季",
+        "冬季"
+      ],
+      "answerIndex": 0,
+      "explanation": "“秋月”直接点出了秋季。",
+      "learningGoal": "从诗句提取季节线索",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "14",
+        "pdfPage": 19,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《山行》的作者是谁？",
+      "options": [
+        "杜牧",
+        "刘禹锡",
+        "叶绍翁",
+        "袁枚"
+      ],
+      "answerIndex": 0,
+      "explanation": "《山行》是唐代诗人杜牧的作品。",
+      "learningGoal": "识记古诗作者",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "14",
+        "pdfPage": 19,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-5",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《山行》中“停车坐爱枫林晚”的“坐”是什么意思？",
+      "options": [
+        "因为",
+        "坐下",
+        "座位",
+        "乘坐"
+      ],
+      "answerIndex": 0,
+      "explanation": "教材注释指出，这里的“坐”是“因为”的意思。",
+      "learningGoal": "结合注释理解字义",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "14",
+        "pdfPage": 19,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-6",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《山行》中，诗人停车是因为喜爱什么景色？",
+      "options": [
+        "傍晚的枫林",
+        "盛夏的荷塘",
+        "冬天的雪地",
+        "春天的桃园"
+      ],
+      "answerIndex": 0,
+      "explanation": "诗句“停车坐爱枫林晚”写出了停车欣赏枫林的原因。",
+      "learningGoal": "理解诗句中的原因",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "14",
+        "pdfPage": 19,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-7",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《夜书所见》中，“促织”指哪种小动物？",
+      "options": [
+        "蟋蟀",
+        "蝴蝶",
+        "蚂蚁",
+        "蜻蜓"
+      ],
+      "answerIndex": 0,
+      "explanation": "“促织”就是蟋蟀，也叫蛐蛐。",
+      "learningGoal": "理解古诗词语",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "15",
+        "pdfPage": 20,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-8",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《夜书所见》中，“篱落”是什么意思？",
+      "options": [
+        "篱笆",
+        "落叶",
+        "屋顶",
+        "小河"
+      ],
+      "answerIndex": 0,
+      "explanation": "根据教材注释，“篱落”指篱笆。",
+      "learningGoal": "借助注释理解词语",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "15",
+        "pdfPage": 20,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-9",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《铺满金色巴掌的水泥道》中，“金色巴掌”指什么？",
+      "options": [
+        "法国梧桐树的落叶",
+        "金色的手套",
+        "路边的石头",
+        "黄色的小雨靴"
+      ],
+      "answerIndex": 0,
+      "explanation": "课文把法国梧桐树的落叶比作金色的小巴掌。",
+      "learningGoal": "理解课文中的比喻",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "16",
+        "pdfPage": 21,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "local-chinese-review-10",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "unitId": "local-review",
+      "type": "single-choice",
+      "prompt": "《铺满金色巴掌的水泥道》中，小雨靴被比作什么？",
+      "options": [
+        "棕红色的小鸟",
+        "蓝色的小船",
+        "白色的云朵",
+        "金色的扇子"
+      ],
+      "answerIndex": 0,
+      "explanation": "课文把棕红色的小雨靴比作在叶丛间蹦跳的小鸟。",
+      "learningGoal": "寻找比喻的对应事物",
+      "source": {
+        "bookId": "cn-g3s1-pep-2026",
+        "page": "16",
+        "pdfPage": 21,
+        "section": "金秋时节"
+      },
+      "reviewStatus": "approved"
+    }
+  ]
+}

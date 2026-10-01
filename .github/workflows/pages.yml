@@ -50,8 +50,8 @@ jobs:
       - name: Prepare minimal static site
         run: |
           mkdir _site
-          cp index.html _site/
-          cp -R data src styles _site/
+          cp index.html content-manager.html _site/
+          cp -R data src styles vendor _site/
           touch _site/.nojekyll
 
       - name: Upload Pages artifact

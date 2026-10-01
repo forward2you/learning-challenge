@@ -1,0 +1,16 @@
+[hidden] { display: none !important; }
+#content-manager { max-width: 920px; }
+#content-manager > .card { margin: 20px 0; padding: 24px; }
+#content-manager label { display: block; margin: 14px 0; }
+#content-manager input, #content-manager textarea, #content-manager select { display: block; width: 100%; box-sizing: border-box; margin-top: 6px; padding: 12px; font: inherit; border: 1px solid #afc8bc; border-radius: 8px; }
+#content-manager textarea { min-height: 90px; }
+.workshop-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+#notice { white-space: pre-wrap; overflow-wrap: anywhere; }
+#content-manager button { white-space: normal; min-height: 44px; padding: 12px 16px; border-radius: 10px; margin: 4px 0; }
+#content-manager button:not(.primary) { background: #eaf0e2; }
+#content-manager li { overflow-wrap: anywhere; margin: 8px 0; }
+
+#pdf-image canvas { display: block; width: 100%; height: auto; border: 1px solid #ccd5c8; margin: 16px 0; }
+#pdf-status, #knowledge-source, #knowledge-notice { overflow-wrap: anywhere; }
+.knowledge-meta { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+#knowledge-raw, #knowledge-text { min-height: 180px; }

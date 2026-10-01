@@ -21,3 +21,5 @@
 | [015](015-unit-two-expansion.md) | 2026-09-17 | 三科第二单元45题与选项随机化 |
 | [016](016-full-semester.md) | 2026-09-20 | 补齐三上剩余单元、综合实践与复习练习 |
 | [017](017-github-pages-deployment.md) | 2026-09-21 | GitHub Actions 校验与 GitHub Pages 可选试玩部署 |
+| [018](018-content-workshop.md) | 2026-09-30 | 阶段02内容管理：导入、编辑、逐题审核、版本档案及练习接入 |
+| [019](019-pdf-knowledge.md) | 2026-09-30 | PDF本地预览、文字层提取、独立知识资料与校对审核 |
